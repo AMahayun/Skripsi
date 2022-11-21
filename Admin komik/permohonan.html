@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Basic Page Info -->
+	<meta charset="utf-8">
+	<title>Publis Komik</title>
+
+	<!-- Site favicon -->
+	<link rel="apple-touch-icon" sizes="180x180" href="vendors/images/logo.svg">
+	<link rel="icon" type="image/png" sizes="32x32" href="vendors/images/logo.svg">
+	<link rel="icon" type="image/png" sizes="16x16" href="vendors/images/logo.svg">
+
+	<!-- Mobile Specific Metas -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- Google Font -->
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="vendors/styles/core.css">
+	<link rel="stylesheet" type="text/css" href="vendors/styles/icon-font.min.css">
+	<link rel="stylesheet" type="text/css" href="vendors/styles/style.css">
+
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-119386393-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-119386393-1');
+	</script>
+</head>
+<body>
+
+	<div class="header">
+		<div class="header-left">
+			<div class="menu-icon dw dw-menu"></div>
+			<div class="header-search">
+				<form>
+					<div class="form-group mb-0">
+						
+						<div class="dropdown">
+							<a class="dropdown-toggle no-arrow" href="#" role="button" data-toggle="dropdown">
+							</a>
+							<div class="dropdown-menu dropdown-menu-right">
+								<div class="form-group row">
+									<label class="col-sm-12 col-md-2 col-form-label">From</label>
+									<div class="col-sm-12 col-md-10">
+										<input class="form-control form-control-sm form-control-line" type="text">
+									</div>
+								</div>
+								<div class="form-group row">
+									<label class="col-sm-12 col-md-2 col-form-label">To</label>
+									<div class="col-sm-12 col-md-10">
+										<input class="form-control form-control-sm form-control-line" type="text">
+									</div>
+								</div>
+								<div class="form-group row">
+									<label class="col-sm-12 col-md-2 col-form-label">Subject</label>
+									<div class="col-sm-12 col-md-10">
+										<input class="form-control form-control-sm form-control-line" type="text">
+									</div>
+								</div>
+								<div class="text-right">
+									<button class="btn btn-primary">Search</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+		<div class="header-right">
+			<div class="user-notification">
+				<div class="dropdown">
+					<a class="dropdown-toggle no-arrow" href="#" role="button" data-toggle="dropdown">
+						<i class="icon-copy dw dw-notification"></i>
+						<span class="badge notification-active"></span>
+					</a>
+					<div class="dropdown-menu dropdown-menu-right">
+						<div class="notification-list mx-h-350 customscroll">
+							<ul>
+								<li>
+									<a href="#">
+										<img src="vendors/images/img.jpg" alt="">
+										<h3>John Doe</h3>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed...</p>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<img src="vendors/images/photo1.jpg" alt="">
+										<h3>Lea R. Frith</h3>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed...</p>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<img src="vendors/images/photo2.jpg" alt="">
+										<h3>Erik L. Richards</h3>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed...</p>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<img src="vendors/images/photo3.jpg" alt="">
+										<h3>John Doe</h3>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed...</p>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<img src="vendors/images/photo4.jpg" alt="">
+										<h3>Renee I. Hansen</h3>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed...</p>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<img src="vendors/images/img.jpg" alt="">
+										<h3>Vicki M. Coleman</h3>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed...</p>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="user-info-dropdown">
+				<div class="dropdown">
+					<a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown">
+						<span class="user-icon">
+							<img src="vendors/images/alma1.JPG" alt="">
+						</span>
+						<span class="user-name">Alma Mahayun Syawaludin</span>
+					</a>
+					<div class="dropdown-menu dropdown-menu-right dropdown-menu-icon-list">
+						<a class="dropdown-item" href="profile.html"><i class="dw dw-user1"></i> Profile</a>
+						<a class="dropdown-item" href="login.html"><i class="dw dw-logout"></i> Log Out</a>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+
+	<div class="left-side-bar">
+		<div class="brand-logo">
+			<a href="index.html">
+				<img src="vendors/images/logo2.svg" alt="" class="dark-logo">
+				<img src="vendors/images/logo2.svg" alt="" class="light-logo">
+			</a>
+			<div class="close-sidebar" data-toggle="left-sidebar-close">
+				<i class="ion-close-round"></i>
+			</div>
+		</div>
+		<div class="menu-block customscroll">
+			<div class="sidebar-menu">
+				<ul id="accordion-menu">
+					<li class="dropdown">
+						<a href="index.html" class="dropdown-toggle no-arrow">
+							<span class="micon dw dw-house-1"></span><span class="mtext">Beranda</span>
+						</a>
+						</li>
+					
+					<!-- menu Permohonan-->
+					<li class="dropdown">
+						<a href="permohonan.html" class="dropdown-toggle no-arrow">
+							<span class="micon micon dw dw-invoice-1"></span><span class="mtext">Permohonan</span>
+						</a>
+					</li>
+					<!-- menu data pengguna-->
+					<li class="dropdown">
+						<a href="datauser.html" class="dropdown-toggle no-arrow">
+							<span class="micon dw dw dw-name"></span><span class="mtext">Data Pengguna</span>
+						</a>
+					</li>
+					</li>
+					<!-- menu data komik-->
+					<li class="deopdonw">
+						<a href="datakomik.html"class="dropdown-toggle no-arrow">
+							<span class="micon dw dw-book"></span><span calss="mtext">Data Komik</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="mobile-menu-overlay"></div>
+
+	<div class="main-container">
+		<div class="pd-ltr-20 xs-pd-20-10">
+			<div class="min-height-200px">
+				
+				<!-- basic table  Start -->
+				
+				<div class="pd-20 card-box mb-30">
+					<h4 class="text-blue h4">Permohonan Publis Komik <bR></bR></h4>
+				
+
+					<div class="clearfix mb-20">
+						<div class="pull-left">
+					</div>
+					<table class="table">
+						<thead>
+							<tr>
+								<th scope="col">Tanggal</th>
+								<th scope="col">Pembuat	</th>
+								<th scope="col">Judul Komik</th>
+								<th scope="col">Chapter</th>
+								<td scope="col">Tinjauan</td>
+								<td s ncope="col">Action </td>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<th scope="row">22/8/22</th>
+								<td>Alma</td>
+								<td>Sarimin</td>
+								<td>01</td>
+								<td><a href="komik.html" class="komik">
+									<span class="mtext">lihat</span>
+								</a></td>
+								<td> 
+									<div class="user-info-dropdown">
+										<div class="dropdown">
+											<a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown"></a>
+											<div class="dropdown-menu dropdown-menu-right dropdown-menu-icon-list">
+												<a class="dropdown-item"href="#" class="btn-block" data-toggle="modal" data-target="#success-modal">
+													<i class="dw dw-user1"></i> Terima</a>
+												<a class="dropdown-item"href="#" class="btn-block" data-toggle="modal" data-target="#deny-modal">
+														<i class="dw dw-user1"></i> Tolak</a>	
+											</div>
+											<!--Terima komik-->
+											<div class="card-box">
+												<div class="modal fade" id="success-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+														<div class="modal-dialog modal-dialog-centered" role="document">
+															<div class="modal-content">
+																<div class="modal-body text-center font-18">
+																	<h3 class="mb-20">Form Submitted!</h3>
+																	<div class="mb-30 text-center"><img src="vendors/images/success.png"></div>
+																	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+																</div>
+																<div class="modal-footer justify-content-center">
+																	<button type="button" class="btn btn-primary" data-dismiss="modal">Done</button>
+																</div>
+															</div>
+														</div>
+													</div>
+											</div>
+											<div class="card-box">
+												<div class="modal fade" id="deny-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+														<div class="modal-dialog modal-dialog-centered" role="document">
+															<div class="modal-content">
+																<div class="modal-body text-center font-18">
+																	<h3 class="mb-20">Form Submitted!</h3>
+																	<div class="mb-30 text-center"><img src="vendors/images/cross.png"></div>
+																	<div class="form-group">
+																		<label>Pesan</label>
+																		<textarea class="form-control"></textarea>
+																	</div>
+																</div>
+																<div class="modal-footer justify-content-center">
+																	<button type="button" class="btn btn-primary" data-dismiss="modal">Done</button>
+																</div>
+															</div>
+														</div>
+													</div>
+											</div>
+										</div>
+									</div>
+								</td>
+								
+								
+								
+							</tr>
+							<tr>
+								<th scope="row">22/8/22</th>
+								<td>Alma</td>
+								<td>Sarimin</td>
+								<td>02</td>
+								<td> 
+									<a href="komik.html" class="komik">
+										<span class="mtext">lihat</span>
+									</a>
+								</td>
+								
+								<td>
+									<div class="user-info-dropdown">
+										<div class="dropdown">
+											<a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown"></a>
+											<div class="dropdown-menu dropdown-menu-right dropdown-menu-icon-list">
+												<a class="dropdown-item"href="#" class="btn-block" data-toggle="modal" data-target="#success-modal">
+													<i class="dw dw-user1"></i> Terima</a>
+												<a class="dropdown-item"href="#" class="btn-block" data-toggle="modal" data-target="#deny-modal">
+														<i class="dw dw-user1"></i> Tolak</a>	
+											</div>
+											</div>
+									</div>
+								</div>
+							</tr>
+							<tr>
+								<th scope="row">22/8/22</th>
+								<td>Alma</td>
+								<td>Sarimin</td>
+								<td>03</td>
+								<td> 
+									<a href="komik.html" class="komik">
+										<span class="mtext">lihat</span>
+									</a>
+								</td>
+								<td>
+									<div class="user-info-dropdown">
+										<div class="dropdown">
+											<a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown"></a>
+											<div class="dropdown-menu dropdown-menu-right dropdown-menu-icon-list">
+												<a class="dropdown-item"href="#" class="btn-block" data-toggle="modal" data-target="#success-modal">
+													<i class="dw dw-user1"></i> Terima</a>
+												<a class="dropdown-item"href="#" class="btn-block" data-toggle="modal" data-target="#deny-modal">
+														<i class="dw dw-user1"></i> Tolak</a>	
+											</div>
+									</div>
+							</tr>
+						</tbody>
+					</table>
+					<div class="collapse collapse-box" id="basic-table
+					" >
+						<div class="code-box">
+							<div class="clearfix">
+								<a href="javascript:;" class="btn btn-primary btn-sm code-copy pull-left"  data-clipboard-target="#basic-table-code"><i class="fa fa-clipboard"></i> Copy Code</a>
+								<a href="#permohonan.html" class="btn btn-primary btn-sm pull-right" rel="content-y"  data-toggle="collapse" role="button"><i class="fa fa-eye-slash"></i> Hide Code</a>
+							</div>
+							<pre><code class="xml copy-pre" id="basic-table-code">
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+    </tr>
+  </tbody>
+</table>
+							</code></pre>
+						</div>
+					</div>
+				</div>
+				
+	</div>
+	<!-- js -->
+	<script src="vendors/scripts/core.js"></script>
+	<script src="vendors/scripts/script.min.js"></script>
+	<script src="vendors/scripts/process.js"></script>
+	<script src="vendors/scripts/layout-settings.js"></script>
+</body>
+</html>
